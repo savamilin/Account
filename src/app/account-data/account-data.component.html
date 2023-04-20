@@ -1,0 +1,20 @@
+<div class="row mb-3">
+  <div class="col-12">
+    <b>{{ personalAcc.accountName }}</b>
+  </div>
+  <hr />
+  <div class="col-12">
+    <p>
+      This is <b>{{ personalAcc.account }}</b>
+    </p>
+    <button type="button" class="btn" (click)="setStatus('ative')">
+      Set to 'ative'
+    </button>
+    <button type="button" class="btn" (click)="setStatus('inattive')">
+      Set to 'inattive'
+    </button>
+    <button type="button" class="btn" (click)="setStatus('hiden')">
+      Set to 'hiden'
+    </button>
+  </div>
+</div>

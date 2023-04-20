@@ -1,0 +1,17 @@
+<div class="row">
+  <div class="col-12">
+    <label class="form-label" for="account">Acount Name</label>
+    <input class="form-control" id="account" type="text" #accountName />
+
+    <div class="form-groupe mb-3 mt-3">
+      <select class="form-control" #status>
+        <option value="ative">ative</option>
+        <option value="inactive">inactive</option>
+        <option value="hidden">hidden</option>
+      </select>
+    </div>
+  </div>
+</div>
+<button type="button" class="btn btn-primary mb-3" (click)="userAccount()">
+  Add accounts
+</button>
